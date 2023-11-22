@@ -5,3 +5,9 @@
 export const standardDev = (nums) => {
   // Do stuff here.
 };
+
+const getAverage = (nums) => {
+  return nums.reduce((acc, val) => acc + val, 0) / nums.length;
+};
+
+export { getAverage };
