@@ -3,7 +3,11 @@
 
 // Define a function called standardDev which returns the standard deviation of an array of numbers.
 export const standardDev = (nums) => {
-  // Do stuff here.
+  const average = getAverage(nums);
+
+  return Math.sqrt(
+    nums.reduce((sum, num) => sum + (num - average) ** 2) / nums.length - 1
+  );
 };
 
 const getAverage = (nums) => {
