@@ -1,4 +1,4 @@
-import { average } from "./stats.js";
+import { averageOfList } from "./stats.js";
 
 const data = [24, 987, 23, 973, 32, 3462, 382, 53];
 
