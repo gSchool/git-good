@@ -2,7 +2,7 @@
 	"name": "git-good",
 	"type": "module",
 	"version": "1.0.0",
-	"main": "main.js",
+	"main": "😈",
 	"scripts": {
 		"run": "node main.js",
     "hi": "echo 'hi'"
